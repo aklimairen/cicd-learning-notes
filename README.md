@@ -36,3 +36,12 @@ So CI/CD is not one process, it’s two separate and distinct processes that hap
 **Most common CI/CD Tools:** 
 
 jenkins, CircleCI,Travis CI, Github Actions
+
+# what is Infrastructure as Code (IaC) ?
+
+IaC provides a great way for you to describe your infrastructure in a textual format for easy system Configuration much like code. This textual code you can hand to an IaC tool. This tool reads your code to build your servers, networks, and storage etc. YAML is the most common to write or declare Iac. 
+
+IaC code can be either Declarative or Imperative approch.
+
+
+**Top IaC tool are like :** Terraform, Ansible, Chef, Puppet
