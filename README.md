@@ -12,10 +12,10 @@ The final hands-on project from this course lives in a separate repo → **[ci-c
 
 | #  | Topic                                                                | What I learned                                                        |
 | -- | -------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| 01 | [CI/CD Basics](https://claude.ai/chat/01_basics/what-is-cicd.md)        | What CI and CD actually mean, the DevOps pipeline, IaC                |
-| 02 | [GitHub Actions](https://claude.ai/chat/02_github_actions/workflows.md) | Events, runners, jobs, steps, actions, workflow YAML                  |
-| 03 | [Tekton](https://claude.ai/chat/03_tekton/tekton-intro.md)              | Tasks, Pipelines, Triggers, Tekton Hub, image building                |
-| 04 | [OpenShift](https://claude.ai/chat/05_OpenShift/openShift-note.md)      | Projects, ImageStreams, Routes,`oc`CLI, SCCs, deploying from Tekton |
+| 01 | [CI/CD Basics](./01_basics/what-is-cicd.md)        | What CI and CD actually mean, the DevOps pipeline, IaC                |
+| 02 | [GitHub Actions](./02_github_actions/workflows.md) | Events, runners, jobs, steps, actions, workflow YAML                  |
+| 03 | [Tekton](./03_tekton/tekton-intro.md)              | Tasks, Pipelines, Triggers, Tekton Hub, image building                |
+| 04 | [OpenShift](./05_OpenShift/openShift-note.md)      | Projects, ImageStreams, Routes,`oc`CLI, SCCs, deploying from Tekton |
 
 ---
 
@@ -42,4 +42,4 @@ Everything I practiced in these notes came together in the capstone project — 
 * GitHub Actions handles **CI** (lint + test on every push)
 * Tekton Pipelines on OpenShift handles **CD** (cleanup + test inside the cluster)
 
-→ [ci-cd-final-project](https://github.com/YOUR_USERNAME/ci-cd-final-project)
+→ [ci-cd-final-project](https://github.com/aklimairen/ci-cd-final-project)
