@@ -4,7 +4,7 @@ This repo is my personal notes from the [CI/CD Tools and Practices](https://www.
 
 The notes are written in my own words, with real examples and commands I ran during the labs. If something confused me, I tried to write it in a way that would make sense to me later.
 
-The final hands-on project from this course lives in a separate repo → **[ci-cd-final-project](https://github.com/YOUR_USERNAME/ci-cd-final-project)**
+The final hands-on project from this course lives in a separate repo → **[ci-cd-final-project](https://github.com/aklimairen/ci-cd-final-project)**
 
 ---
 
