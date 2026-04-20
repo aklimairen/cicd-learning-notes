@@ -1,6 +1,6 @@
 # CI/CD Learning Notes
 
-This repo is my personal notes from the [CI/CD Tools and Practices](https://www.coursera.org/learn/continuous-integration-and-continuous-delivery-ci-cd) course by IBM on Coursera. I structured everything as I went through each topic so I could actually refer back to it — not just watch the videos and forget.
+This repo is my personal notes from the [Continuous Integration and Continuous Delivery (CI/CD)](https://www.coursera.org/learn/continuous-integration-and-continuous-delivery-ci-cd) course by IBM on Coursera. I structured everything as I went through each topic so I could actually refer back to it — not just watch the videos and forget.
 
 The notes are written in my own words, with real examples and commands I ran during the labs. If something confused me, I tried to write it in a way that would make sense to me later.
 
