@@ -1,47 +1,45 @@
-# What Is CI/CD?
+# CI/CD Learning Notes
 
-**CI :** Continuous Integration is continuously integrating your code back into the main or master or trunk branch. CI is an automation process that allows developer  to integrate there code into your repository.
+This repo is my personal notes from the [CI/CD Tools and Practices](https://www.coursera.org/learn/continuous-integration-and-continuous-delivery-ci-cd) course by IBM on Coursera. I structured everything as I went through each topic so I could actually refer back to it — not just watch the videos and forget.
 
-**What does CI do?**
+The notes are written in my own words, with real examples and commands I ran during the labs. If something confused me, I tried to write it in a way that would make sense to me later.
 
-* Helps to enable collabrative develpoment accross the team
-* It helps to identify bugs qulicky
-* Teams can work in an smaller chank and integrate there code into the main branch.
+The final hands-on project from this course lives in a separate repo → **[ci-cd-final-project](https://github.com/YOUR_USERNAME/ci-cd-final-project)**
 
-Plan > Code > **Build** > Test
+---
 
+## What's covered
 
-**CD:**  Continuous Delivery is when you deploy it somewhere, like a development server, a staging server, a test server, or a pre-production server, whereas ‘Continuous Deployment’ is reserved for when you actually continuously push to **production.**
+| #  | Topic                                                                | What I learned                                                        |
+| -- | -------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 01 | [CI/CD Basics](https://claude.ai/chat/01_basics/what-is-cicd.md)        | What CI and CD actually mean, the DevOps pipeline, IaC                |
+| 02 | [GitHub Actions](https://claude.ai/chat/02_github_actions/workflows.md) | Events, runners, jobs, steps, actions, workflow YAML                  |
+| 03 | [Tekton](https://claude.ai/chat/03_tekton/tekton-intro.md)              | Tasks, Pipelines, Triggers, Tekton Hub, image building                |
+| 04 | [OpenShift](https://claude.ai/chat/05_OpenShift/openShift-note.md)      | Projects, ImageStreams, Routes,`oc`CLI, SCCs, deploying from Tekton |
 
-There are two terms, ‘Continuous Delivery’ and ‘Continuous Deployment,’ and it’s important to understand that they don’t mean the same thing. ‘Continuous Delivery’ is delivering it somewhere other than production, and ‘Continuous Deployment’ is delivering it to production.
+---
 
-Release > **Deploy** > Operate
+## How I structured the notes
 
-**Devops Pipline :** 
+Each topic follows the same format — a short overview, the core concepts, a real code/command example, and bullet points for the things worth remembering. I kept it short on purpose. Long notes don't get read.
 
-It’s also important to understand where CI/CD sits in terms of the DevOps pipeline. The DevOps pipeline consists of Plan, Develop, Build, Test, and Deploy phases, and so, when we talk about CI/CD, we're in the Build and Test phases of the DevOps pipeline.
+---
 
-Plan > Develop > Build > Test > Deploy
+## Tools & stack covered
 
+* **GitHub Actions** — CI workflows, secrets, matrix builds, artifacts
+* **Tekton** — Kubernetes-native pipelines, tasks, triggers
+* **OpenShift** — Deployment, routing, security context, `oc` CLI
+* **Docker** — Containerization, Dockerfiles, image registries
+* **Python** — Flask microservice used throughout the labs
 
-**Benefits of  CI/CD:** 
+---
 
-* You’ll get faster reaction times to code changes.
-* It automatically gets built and tested and deployed.
-* You get higher code quality with CI/CD, because things are constantly being reviewed and constantly being tested, and every pull request is an opportunity for a code review.
-* Less deployment time because everything is already tested and delpoyments are automated.
+## Final project
 
-So CI/CD is not one process, it’s two separate and distinct processes that happen sequentially.
+Everything I practiced in these notes came together in the capstone project — a full CI/CD pipeline around a Python/Flask microservice:
 
-**Most common CI/CD Tools:** 
+* GitHub Actions handles **CI** (lint + test on every push)
+* Tekton Pipelines on OpenShift handles **CD** (cleanup + test inside the cluster)
 
-jenkins, CircleCI,Travis CI, Github Actions
-
-# what is Infrastructure as Code (IaC) ?
-
-IaC provides a great way for you to describe your infrastructure in a textual format for easy system Configuration much like code. This textual code you can hand to an IaC tool. This tool reads your code to build your servers, networks, and storage etc. YAML is the most common to write or declare Iac. 
-
-IaC code can be either Declarative or Imperative approch.
-
-
-**Top IaC tool are like :** Terraform, Ansible, Chef, Puppet
+→ [ci-cd-final-project](https://github.com/YOUR_USERNAME/ci-cd-final-project)
