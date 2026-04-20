@@ -43,3 +43,9 @@ Everything I practiced in these notes came together in the capstone project — 
 * Tekton Pipelines on OpenShift handles **CD** (cleanup + test inside the cluster)
 
 → [ci-cd-final-project](https://github.com/aklimairen/ci-cd-final-project)
+
+## Certificate
+
+Successfully completed the IBM Continuous Integration and Continuous Delivery (CI/CD) course on Coursera.
+
+[Certificate](./certificate/ci-cd-certificate.pdf)
